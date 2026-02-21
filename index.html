@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreya Arjun | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio site for Shreya Arjun featuring projects, resume, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-texture" aria-hidden="true"></div>
+
+    <header class="hero">
+      <nav class="top-nav">
+        <p class="nameplate">Shreya Arjun</p>
+        <div class="links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+      </nav>
+
+      <section class="hero-copy reveal">
+        <p class="eyebrow">Computer Science Student</p>
+        <h1>
+          I build thoughtful software and love turning ideas into things people can use.
+        </h1>
+        <p>
+          This is my corner of the internet to share projects I am proud of and the work I am
+          currently exploring.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer"
+            >Download Resume</a
+          >
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="projects" class="projects reveal">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">Web Development</p>
+            <h3>404Found...ers</h3>
+            <p>
+              Collaborative project that used facial recognition to suggest songs based on user's displayed emotion.
+              I built upon fundamentals of software engineering, gaining insight into backend and database using JavaScript and MongoDB.
+              Integrated facial recoginition API to convert an image into readable input, while recieving emotional scales based on user's face.
+            </p>
+            <a
+              href="https://github.com/ellalyam/404Found...ers"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+
+          <article class="project-card">
+            <p class="project-tag">Software Engineering</p>
+            <h3>PRISM</h3>
+            <p>
+              Project to create visual aids during lecture during PolyPrompt, an Open-Ai powered hackathon at CalPoly. 
+              Developed an application that consumes speech, translates it to readable text, and generates images that correlate to the speech.
+              I contributed to integrating APIs (Open-Ai, Claude) for speech-to-text and image generation within backend.
+              Developed the UI, and worked on frontend with user-centered design, ideal for accessiblility for both students and professors.   
+            </p>
+            <a href="https://github.com/lennox55555/PRISM" target="_blank" rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about reveal">
+        <h2>About Me</h2>
+        <p>
+          I am interested in building impactful products at the intersection of software,
+          creativity, and user-centered design. Right now I am focused on growing as a software engineer by
+          shipping projects, collaborating in teams, and improving my foundations.
+        </p>
+      </section>
+
+      <section class="contact reveal">
+        <h2>Let’s Connect</h2>
+        <p>
+          Want to collaborate or chat? Reach out on GitHub or add your email/LinkedIn links here.
+        </p>
+        <div class="contact-links">
+          <a href="https://github.com/shreya-arjun" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:shreyaarjun1@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/shreya-arjun-7682aa23b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Shreya Arjun</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
