@@ -245,6 +245,13 @@ main {
   font-size: 1.45rem;
 }
 
+.work-date {
+  margin: 0 0 0.8rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .work-card a {
   color: var(--accent-2);
   text-decoration: none;
