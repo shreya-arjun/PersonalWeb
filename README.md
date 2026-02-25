@@ -7,7 +7,7 @@ A clean, single-page portfolio site built with plain HTML/CSS/JS.
 - `index.html` - page content and sections
 - `styles.css` - visual design + responsive layout
 - `script.js` - reveal animation + footer year
-- `assets/resume.pdf` - your resume
+- `assets/TeslaRes.pdf` - your resume
 
 ## Customize
 
@@ -20,7 +20,7 @@ A clean, single-page portfolio site built with plain HTML/CSS/JS.
    - What problem it solves
    - Tech stack
    - Your contribution
-4. If needed, replace `assets/resume.pdf` with your latest resume.
+4. If needed, replace `assets/TeslaRes.pdf` with your latest resume.
 
 ## Run locally
 
